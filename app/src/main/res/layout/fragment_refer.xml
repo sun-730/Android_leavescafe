@@ -1,0 +1,47 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.jasonmccoy.a7leavescardx.fragments.ReferFragment">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundGray"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_vertical_margin">
+
+            <include
+                android:id="@+id/include_code"
+                layout="@layout/card_referral_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include
+                layout="@layout/card_share_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_card_margin" />
+
+        </LinearLayout>
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/refer_button"
+            style="@style/FabMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="@string/CD_card_referral_fab"
+            android:src="@drawable/ic_share"
+            app:layout_anchor="@id/include_code"
+            app:layout_anchorGravity="end|bottom" />
+
+    </android.support.design.widget.CoordinatorLayout>
+</ScrollView>

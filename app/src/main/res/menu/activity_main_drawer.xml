@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/ic_nav_profile"
+        android:icon="@drawable/ic_nav_profile"
+        android:title="@string/nav_profile" />
+    <item
+        android:id="@+id/ic_nav_store"
+        android:icon="@drawable/ic_nav_store"
+        android:title="@string/nav_store" />
+    <item
+        android:id="@+id/ic_nav_refer"
+        android:icon="@drawable/ic_nav_refer"
+        android:title="@string/nav_refer" />
+    <item
+        android:id="@+id/ic_nav_redeem"
+        android:icon="@drawable/ic_nav_redeem"
+        android:title="@string/nav_redeem" />
+
+    <item
+        android:id="@+id/ic_nav_team"
+        android:icon="@drawable/ic_nav_team"
+        android:title="@string/nav_team" />
+    <item
+        android:id="@+id/ic_nav_feedback"
+        android:icon="@drawable/ic_nav_feedback"
+        android:title="@string/nav_feedback" />
+
+
+    <group android:checkableBehavior="none">
+        <item android:title="@string/nav_category_account">
+            <menu>
+                <item
+                    android:id="@+id/nav_log_out"
+                    android:icon="@drawable/ic_nav_logout"
+                    android:title="@string/nav_log_out" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

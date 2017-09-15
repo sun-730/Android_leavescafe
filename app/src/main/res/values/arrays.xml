@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="qr_map">
+        <item>redeem_10</item>
+        <item>update_01</item>
+        <item>update_02</item>
+        <item>update_03</item>
+        <item>update_04</item>
+        <item>update_05</item>
+        <item>update_06</item>
+        <item>update_07</item>
+        <item>update_08</item>
+        <item>update_09</item>
+        <item>update_10</item>
+    </string-array>
+
+</resources>

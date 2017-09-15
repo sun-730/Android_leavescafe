@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">7Leaves Cafe</string>
+
+    <!-- Facebook -->
+    <string name="facebook_application_id" translatable="false">277765585977327</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb-277765585977327</string>
+
+    <!-- Dynamic link -->
+    <string name="dynamic_link_start">https://jf27z.app.goo.gl/?link=</string>
+    <string name="dynamic_link_end">&amp;apn=com.jasonmccoy.a7leavescardx&amp;isi=1187702945&amp;ibi=com.JasonMcCoy.7LeavesCard&amp;st=Get+free+stamp&amp;sd=Get+a+free+stamp+when+using+this+code!&amp;si=https://firebasestorage.googleapis.com/v0/b/leaves-cafe.appspot.com/o/selectedStar%25402x.png?alt%3Dmedia%26token%3D61ffb2ee-a866-40ba-a1a2-57fa9cc2c852</string>
+
+    <!--General-->
+    <string name="CD_user_icon">User icon</string>
+    <string name="permission_not_granted_toast">Permissions were not granted.</string>
+    <string name="default_user_icon">http://www.innovativementoring.net/assets/img/icon-user.png</string>
+    <string name="camera_and_location_rationale">We need camera permission in order to scan a QR code that you will receive.  We use the location to make shure that you are in one of our stores before scaning.</string>
+
+    <!--Navigation drawer menu item names-->
+    <string name="nav_profile">Profile</string>
+    <string name="nav_store">Nearest store</string>
+    <string name="nav_refer"><![CDATA[Refer & Earn]]></string>
+    <string name="nav_redeem">Redeem Code</string>
+    <string name="nav_team">Your Team</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_category_account">Account</string>
+    <string name="nav_log_out">Log out</string>
+
+    <!--ScanActivity-->
+    <string name="scan_cancel">Cancel</string>
+    <string name="scan_invalid_code">Invalid Code!</string>
+    <string name="scan_not_enough_to_redeem">You don\'t have enough stamps to redeem.</string>
+    <string name="scan_dialog_title">Oops</string>
+
+    <!--MainActivity-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="main_get_location_dialog_title">Getting your location</string>
+    <string name="main_not_in_store_error">You need to be in a store in order to scan a code.</string>
+    <string name="CD_main_fab">Scan QR code to redeem stamps.</string>
+
+    <!--Header card-->
+    <string name="card_header_strip">BUY 10 GET ONE FREE!!</string>
+    <string name="CD_card_header_logo">7Leaves logo</string>
+
+    <!--Stamps card-->
+    <string name="CD_card_stamp">Stamp image</string>
+
+    <!--Social card-->
+    <string name="card_social_facebook_test">\@7leavescafe</string>
+    <string name="card_social_instagram_test">\@7leavescafe</string>
+    <string name="card_social_strip">Follow us on social networks!</string>
+    <string name="CD_card_social_facebook">Facebook logo</string>
+    <string name="CD_card_social_instagram">Instagram logo</string>
+
+    <!--Redeem card-->
+    <string name="card_redeem_message">Enter redeem code:</string>
+    <string name="card_redeem_code_hint">Redeem code</string>
+    <string name="card_redeem_button">Verify</string>
+    <string name="fragment_team_no_team">You haven\'t referred a friend yet. Once a friend successfully redeems their code, they will appear here.</string>
+    <string name="CD_nav_header_background">Wallpaper with leaves.</string>
+
+    <!--Referral card-->
+    <string name="card_referral_code_message">Your referral code:</string>
+    <string name="card_referral_share_title">Share the magic</string>
+    <string name="card_referral_share_message">For every friend that redeems (collects 10 stamps), you get 1 stamp.</string>
+    <string name="CD_card_referral_code_image">You can earn stamps if you share your code.</string>
+    <string name="CD_card_referral_share_image">Share you referral code to your friends and receive free stamps when they redeem.</string>
+    <string name="CD_card_referral_fab">Share your code.</string>
+
+    <!--Feedback card-->
+    <string name="card_feedback_title">Enter you message below</string>
+    <string name="card_feedback_hint">Message</string>
+    <string name="CD_feedback_fab">Send feedback message</string>
+
+    <!--Team-->
+    <string name="team_item_redeemed">Redeemed</string>
+    <string name="team_count_info">Has %d stamps.</string>
+
+    <!--FragmentProfile-->
+    <string name="fragment_profile_name_hint">Full Name</string>
+    <string name="fragment_profile_email_hint">Email</string>
+    <string name="fragment_profile_birthday_hint">Birthday</string>
+    <string name="fragment_profile_male">Male</string>
+    <string name="fragment_profile_female">Female</string>
+    <string name="fragment_profile_info_text">*Fill in your birthday to get a free stamp.</string>
+    <string name="fragment_profile_change_user_icon">Change user icon</string>
+    <string name="fragment_profile_change_image_intent_dialog">Select profile picture</string>
+    <string name="fragment_profile_select_date_dialog">Select date</string>
+    <string name="fragment_profile_invalid_email">This is not a valid email.</string>
+
+    <!--FragmentProfile-->
+    <string name="fragment_redeem_error_own_code">You can\'t redeem your own code.</string>
+    <string name="fragment_redeem_invalid_code">The code doesn\'t match.</string>
+    <string name="fragment_redeem_code_used">You have already used this parson\'s code.</string>
+    <string name="fragment_refer_loading_code">Loading you referral code. Please wait.</string>
+
+    <!--FragmentRefer-->
+    <string name="fragment_refer_redeem_message">This app is terrific, give it a try and get 1 free stamp if you use my redeem code: %s !</string>
+
+    <!--FragmentRefer-->
+    <string name="fragment_feedback_empty_message">You can\'t set and empty feedback</string>
+    <string name="fragment_feedback_subject"> Feedback</string>
+    <string name="fragment_feedback_destination_email">emailaddress@emailaddress.com</string>
+    <string name="fragment_feedback_intent_title">Send Email</string>
+
+    <!--FreeStampJob-->
+    <string name="free_stamp_notification_title">You just received a free stamp!</string>
+    <string name="free_stamp_notification_message">Because you have staid with us the past year we are awarding you with a free stamp.</string>
+
+
+    <!-- Firebase-UI override -->
+    <string name="sign_in_default">Sign in/up</string>
+    <string name="sign_in_with_google">Sign in/up with Google</string>
+    <string name="sign_in_with_facebook">Sign in/up with Facebook</string>
+    <string name="sign_in_with_email">Sign in/up with email</string>
+    <string name="email_hint">Simply type in the email you wish to sign up with.</string>
+    <string name="scan_promotion_dialog_title">Promotion</string>
+    <string name="scan_promotion_dialog_message">And here is one extra for the promotion.</string>
+
+
+    <!-- NFC-UI override -->
+    <string name="tv_noNfc">There is no NFC module on this device</string>
+    <string name="tv_tapYourCard">High-five your Android device with the sticker on your cup!</string>
+    <string name="ad_progressBar_title">Scanning ...</string>
+    <string name="ad_progressBar_mess">Please do not remove or move card during reading.</string>
+    <string name="snack_unknown_bank_card">This is unknown bank card. Please, go to my github repo!</string>
+    <string name="snack_doNotMoveCard">Please do not move card, try again !</string>
+    <string name="snack_unknownEmv">Unknown EMV card</string>
+    <string name="snack_lockedNfcCard">NFC is locked on this card.</string>
+    <string name="ad_nfcTurnOn_title">NFC is turned off.</string>
+    <string name="ad_nfcTurnOn_message">You need turn on NFC module for scanning. Wish turn on it now?</string>
+    <string name="ad_nfcTurnOn_pos">Turn on</string>
+    <string name="ad_nfcTurnOn_neg">Dismiss</string>
+    <string name="nfc_invalid_code">Invalid Code!</string>
+
+</resources>
